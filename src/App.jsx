@@ -24,6 +24,10 @@ export default function App() {
         </AnimatePresence>
       </main>
       <Footer />
+      <aside className="pitch-watermark" aria-label="Pitch concept by Syed Usman Qadeer">
+        <span>Pitch concept by</span>
+        <strong>Syed Usman Qadeer</strong>
+      </aside>
     </div>
   );
 }
